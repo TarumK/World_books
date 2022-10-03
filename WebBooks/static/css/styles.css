@@ -1,24 +1,16 @@
-/* static css/style.css */
-body{
-    color: darkgreen;
-}
+/* static /css/styles.css */
 h1 {
-    color: darkslategray;
-}
-.title{
-    color: cornflowerblue;
+    color: saddlebrown;
 }
 
-p{
+p {
     color: cornflowerblue;
 }
-hr{
-    color: darkgreen;
-}
+/*input{*/
 
-button{
-    size: A3;
-}
-input{
-    color: darkgreen;
+/*    color: gray;*/
+/*}*/
+/*input {*/
+/*    background: cornflowerblue;*/
+
 }
