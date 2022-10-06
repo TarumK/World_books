@@ -9,3 +9,6 @@ class Subscriber(models.Model):
 
     name = models.CharField(max_length=128)
     email = models.EmailField
+
+    def __str__(self):
+        return "User %s" % (self.name)
