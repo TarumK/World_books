@@ -2,10 +2,12 @@ from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
 from datetime import datetime
 from googlesearch import search
+from .forms import SubscriberForm
 # Create your views here.
 
 def index(request):
     data1 = datetime.today()
+    form = SubscriberForm(request.POST or None)
     return render(request, "index.html", locals())
     # return HttpResponse('<h1>Главная страница сайта Мир книг!</h1>')
 

@@ -1,7 +1,11 @@
 from django.db import models
 
 # Create your models here.
-class Books(models.Model):
+class Book(models.Model):
     name = models.CharField(max_length=50)
-    author = models.CharField(max_length=30)
+    author = models.CharField(max_length=40)
 
+class Subscriber(models.Model):
+
+    name = models.CharField(max_length=128)
+    email = models.EmailField
